@@ -1,0 +1,38 @@
+html, body {
+  height: 100%;
+}
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background: repeating-linear-gradient(
+    -45deg,
+    #fff,
+    #fff 25%,
+    #eee 25%,
+    #eee 50%,
+    #fff 50%
+  ) top left fixed;
+  background-size: 20px 20px;
+}
+
+.icon-row {
+  padding: 10px 0;
+  /* There is no background-size in IE 8-, so PNGs need to be exact size */
+  font-size: 32px;
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.25em;
+  vertical-align: middle;
+}
+
+button {
+  border: 0;
+  padding: 5px 10px;
+  background: white;
+  border: 2px solid black;
+  font-size: 32px;
+}
