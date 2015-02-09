@@ -9,10 +9,7 @@ module.exports = function(grunt) {
           cwd: "svg/",
           src: ["*.svg"],
           dest: "fallbacks/"
-        }],
-        options: {
-          enhanceSVG: true
-        }
+        }]
       }
     }
 
