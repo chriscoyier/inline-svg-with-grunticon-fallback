@@ -20,7 +20,7 @@ module.exports = function(grunt) {
           viewBox : '0 0 50 50',
           style: "display: none;"
         },
-        cleanup: true,
+        cleanup: ['fill','stroke'],
         formatting : {
           indent_size : 2
         }
